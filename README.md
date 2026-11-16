@@ -1,20 +1,83 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Retail Inventory Monitoring Dashboard
 
-# Run and deploy your AI Studio app
+An interactive data analytics dashboard built using Python and Streamlit to explore supermarket data, monitor product quantities, and generate meaningful business insights.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/746b2467-18f5-4058-9ae1-aa8a470b6178
+The Retail Inventory Monitoring Dashboard provides an interactive interface for analyzing supermarket data. It helps users explore product lines, quantities, branch-wise performance, and city-wise patterns through dynamic filters and visualizations.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Interactive dashboard built with Streamlit.
+- Product line and quantity analysis.
+- Branch-wise and city-wise filtering.
+- Dynamic data exploration.
+- Visual representation of supermarket data.
+- Simple and user-friendly interface.
 
+## Technologies Used
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Python
+- Streamlit
+- Pandas
+- Data Visualization
+
+## Project Structure
+
+```text
+Retail-Inventory-Monitoring-Dashboard/
+│
+├── app.py
+├── SuperMarket Analysis.csv
+├── requirements.txt
+└── README.md
+```
+
+## Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd Retail-Inventory-Monitoring-Dashboard
+```
+
+3. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the application:
+
+```bash
+streamlit run app.py
+```
+
+## Dataset
+
+The project uses supermarket sales data containing information such as:
+- Product Line
+- Quantity
+- Date
+- Branch
+- City
+
+## Project Objective
+
+To transform raw supermarket data into meaningful insights through interactive visualizations and filtering, supporting better data exploration and inventory monitoring.
+
+## Author
+
+**Sai Naga Sevitha Pagolu**
+
+B.Tech – Computer Science and Engineering (Data Science)
+
+## License
+
+This project is developed for academic and learning purposes.
