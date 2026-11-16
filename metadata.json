@@ -1,0 +1,6 @@
+{
+  "name": "Retail Inventory Monitoring Dashboard",
+  "description": "Analyze retail supermarket product demand, inventory usage velocity, daily sales trends, and low-stock alerts with real-time filtering and data export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
